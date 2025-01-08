@@ -111,7 +111,7 @@ namespace Arrays
                     largest = numbers[i];
                 }
             }
-            Console.WriteLine(largest);//
+            Console.WriteLine(largest);
         }
     }
 }

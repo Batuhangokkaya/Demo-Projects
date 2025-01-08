@@ -150,4 +150,4 @@ namespace Methods
             return numbers.Sum(); // Sum() toplama metotudur.s
         }
     }
-}//
+}
