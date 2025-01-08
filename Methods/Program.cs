@@ -147,7 +147,7 @@ namespace Methods
         // Params Metthod
         public static int ParamsMethod(int number, params int[] numbers) // params tanımlarken her zaman parametrenin en sonunda olmak zorundadır.
         {
-            return numbers.Sum(); // Sum() toplama metotudur.
+            return numbers.Sum(); // Sum() toplama metotudur.s
         }
     }
 }
