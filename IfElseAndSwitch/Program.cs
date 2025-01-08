@@ -56,7 +56,7 @@ namespace IfElseAndSwitch
             }
             #endregion
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }

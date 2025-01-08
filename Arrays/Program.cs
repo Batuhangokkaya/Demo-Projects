@@ -60,15 +60,13 @@ namespace Arrays
                 Console.WriteLine("--------");
             }
 
-
             Console.WriteLine();
-
 
             string[,] car = new string[2, 2];
             car[0, 0] = "Volkswagen";
             car[0, 1] = "Golf";
             car[1, 0] = "BMW";
-            car[1, 1] = "İ8";
+            car[1, 1] = "Ford";
             for (int i = 0; i <= car.GetUpperBound(0); i++)
             {
                 for (int j = 0; j <= car.GetUpperBound(1); j++)
@@ -78,9 +76,7 @@ namespace Arrays
                 Console.WriteLine("--------");
             }
 
-
             Console.WriteLine();
-
 
             string[] students = new string[5] { "Cüneyt", "Asuman  ", "Batuhan  ", "Burak ", "Yasemin  " };
             int[,] notes = new int[5, 3] { { 70, 70, 70 }, { 100, 50, 100 }, { 50, 50, 50 }, { 100, 100, 100 }, { 50, 70, 51 } };
@@ -91,9 +87,7 @@ namespace Arrays
                 Console.WriteLine("{0} Learner's Average : {1}", students[i], average);
             }
 
-
             Console.WriteLine();
-
 
             int[] numbers = new int[5];
             for (int i = 0; i <= 4; i++)
@@ -112,6 +106,8 @@ namespace Arrays
                 }
             }
             Console.WriteLine(largest);
+
+            Console.ReadLine();
         }
     }
 }
