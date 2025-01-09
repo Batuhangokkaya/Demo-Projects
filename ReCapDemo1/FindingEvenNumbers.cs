@@ -2,7 +2,7 @@
 
 namespace ReCapDemo1
 {
-    internal class FindingEvenNumbers
+    public class FindingEvenNumbers
     {
         // Dizideki çift sayıları bulur.
         public int[] FindEvenNumbers(int[] array)

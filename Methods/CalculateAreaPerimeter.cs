@@ -1,6 +1,6 @@
 ﻿namespace Methods
 {
-    internal class CalculateAreaPerimeter
+    public class CalculateAreaPerimeter
     {
         // Method 5
         public static double CalculateArea(double shortEdge, double longEdge)

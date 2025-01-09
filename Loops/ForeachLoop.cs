@@ -2,7 +2,7 @@
 
 namespace Loops
 {
-    internal class ForeachLoop
+    public class ForeachLoop
     {
         public void ForeachLoop1()
         {

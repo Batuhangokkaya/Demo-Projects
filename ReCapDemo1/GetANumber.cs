@@ -2,7 +2,7 @@
 
 namespace ReCapDemo1
 {
-    internal class GetANumber
+    public class GetANumber
     {
         // Kullanıcıdan geçerli bir sayı alır.
         public int GetNumber()

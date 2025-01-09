@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B0C8C34E-61F6-4569-A864-635380CCA651}</ProjectGuid>
+    <ProjectGuid>{29A2CB3C-FD26-47A5-A40F-715E5DFC89E0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Methods</RootNamespace>
-    <AssemblyName>Methods</AssemblyName>
+    <RootNamespace>Classes</RootNamespace>
+    <AssemblyName>Classes</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculateAreaPerimeter.cs" />
-    <Compile Include="FourOperations.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="PartialClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TupleMethod.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

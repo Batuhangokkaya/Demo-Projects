@@ -2,7 +2,7 @@
 
 namespace Loops
 {
-    internal class DoWhileLoop
+    public class DoWhileLoop
     {
         public void DoWhileLoop1()
         {

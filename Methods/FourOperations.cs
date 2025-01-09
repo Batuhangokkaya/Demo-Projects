@@ -1,6 +1,6 @@
 ﻿namespace Methods
 {
-    internal class FourOperations
+    public class FourOperations
     {
         // Method4
         public double Addition(double number1, double number2)

@@ -1,6 +1,6 @@
 ﻿namespace Loops
 {
-    internal class ReCapPrimeNumber
+    public class ReCapPrimeNumber
     {
         public bool IsPrimeNumber(int number)
         {

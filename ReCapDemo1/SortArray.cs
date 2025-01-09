@@ -2,7 +2,7 @@
 
 namespace ReCapDemo1
 {
-    internal class SortArray
+    public class SortArray
     {
         // Diziyi sıralar.
         public int[] ArraySort(int[] array)

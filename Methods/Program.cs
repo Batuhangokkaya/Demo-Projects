@@ -103,6 +103,11 @@ namespace Methods
             int result5 = ParamsMethod(1, 2, 3, 4, 5, 6, 7, 8, 9); // 2 tane parametre olduğu için ilk değer 1. parametreye atanacaktır.
             Console.WriteLine(result5);
 
+            // Tuple Method
+            TupleMethod tupleMethod = new TupleMethod();
+            var fullNameAndAge = tupleMethod.TupleMethod1();
+            Console.WriteLine(fullNameAndAge);
+
             Console.ReadLine();
         }
 

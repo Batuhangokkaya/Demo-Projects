@@ -2,7 +2,7 @@
 
 namespace Loops
 {
-    internal class WhileLoop
+    public class WhileLoop
     {
         public void WhileLoop1()
         {

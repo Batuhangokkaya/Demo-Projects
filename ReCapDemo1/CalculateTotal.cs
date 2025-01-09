@@ -1,6 +1,6 @@
 ﻿namespace ReCapDemo1
 {
-    internal class CalculateTotal
+    public class CalculateTotal
     {
         // Dizideki sayıların toplamını hesaplar.
         public int TotalCalculation(int[] array)

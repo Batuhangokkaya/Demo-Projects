@@ -2,7 +2,7 @@
 
 namespace Loops
 {
-    internal class ForLoop
+    public class ForLoop
     {
         public void ForMethod1()
         {

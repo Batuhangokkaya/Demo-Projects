@@ -2,7 +2,7 @@
 
 namespace ReCapDemo1
 {
-    internal class FindingOddNumbers
+    public class FindingOddNumbers
     {
         // Dizideki tek sayıları bulur.
         public int[] FindOddNumbers(int[] array)

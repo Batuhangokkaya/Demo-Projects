@@ -2,7 +2,7 @@
 
 namespace ReCapDemo1
 {
-    internal class FindSmallestNumber
+    public class FindSmallestNumber
     {
         // Dizideki en küçük sayıyı bulur.
         public int SmallestNumber(int[] array)

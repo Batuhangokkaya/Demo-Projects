@@ -2,7 +2,7 @@
 
 namespace ReCapDemo1
 {
-    internal class FindLargestNumber
+    public class FindLargestNumber
     {
         // Dizideki en büyük sayıyı bulur.
         public int LargestNumber(int[] array)

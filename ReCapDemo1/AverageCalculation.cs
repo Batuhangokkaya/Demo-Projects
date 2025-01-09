@@ -1,6 +1,6 @@
 ﻿namespace ReCapDemo1
 {
-    internal class AverageCalculation
+    public class AverageCalculation
     {
         // Dizideki sayıların ortalamasını hesaplar.
         public double CalculateAverage(int[] array)
