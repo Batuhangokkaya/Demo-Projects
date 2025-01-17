@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructiveBlocks", "ConstructiveBlocks\ConstructiveBlocks.csproj", "{63050BE6-4D40-4C06-B26E-D3434E7C9D2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueAndReferenceType", "ValueAndReferenceType\ValueAndReferenceType.csproj", "{407F6A35-21B1-4C7B-9DE7-5B5915303B25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{63050BE6-4D40-4C06-B26E-D3434E7C9D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63050BE6-4D40-4C06-B26E-D3434E7C9D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63050BE6-4D40-4C06-B26E-D3434E7C9D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407F6A35-21B1-4C7B-9DE7-5B5915303B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407F6A35-21B1-4C7B-9DE7-5B5915303B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407F6A35-21B1-4C7B-9DE7-5B5915303B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407F6A35-21B1-4C7B-9DE7-5B5915303B25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
