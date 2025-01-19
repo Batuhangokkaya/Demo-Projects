@@ -6,6 +6,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("--Names--");
             string[] names = new string[8];
             names[0] = "Asuman";
             names[1] = "Cüneyt";
@@ -24,9 +25,9 @@ namespace Arrays
 
             Console.WriteLine("{0}", names.Length);               // .Length        : Dizinin kaç elemanlı olduğunu gösterir.
             Console.WriteLine(Array.IndexOf(names, "Asuman"));    // .IndexOf()     : Dizinin istenilen elemanın baştan başlayarak sırasını gösterir.
-            Console.WriteLine(Array.LastIndexOf(names, "Miray")); // .LastIndexOf() : Dizinin istenilen elemanın sondan başlayarak sırasını gösterir.
+            Console.WriteLine(Array.LastIndexOf(names, "Yasemin")); // .LastIndexOf() : Dizinin istenilen elemanın sondan başlayarak sırasını gösterir.
 
-            Console.WriteLine();
+            Console.WriteLine("\n--Colors--");
 
             string[] colors = { "Purple", "White", "Red", "Aqua" }; // new [] olmadanda yazılabilir.
             colors[0] = "Black"; // Değiştirelebilir ama eklenemez.
@@ -39,9 +40,8 @@ namespace Arrays
                 Console.WriteLine(colors[i]);
             }
 
-            Console.WriteLine();
-
-            /* Çok Boyutlu Dizi */
+            /* Multidimensional Array */
+            Console.WriteLine("\n--Multidimensional Array--");
             string[,] regions = new string[5, 2]
             {
                 {"İstanbul", "İzmit"},
@@ -60,7 +60,7 @@ namespace Arrays
                 Console.WriteLine("--------");
             }
 
-            Console.WriteLine();
+            Console.WriteLine("\n--Cars--");
 
             string[,] car = new string[2, 2];
             car[0, 0] = "Volkswagen";
@@ -76,7 +76,7 @@ namespace Arrays
                 Console.WriteLine("--------");
             }
 
-            Console.WriteLine();
+            Console.WriteLine("\n--Students' Average Grades--");
 
             string[] students = new string[5] { "Cüneyt", "Asuman  ", "Batuhan  ", "Burak ", "Yasemin  " };
             int[,] notes = new int[5, 3] { { 70, 70, 70 }, { 100, 50, 100 }, { 50, 50, 50 }, { 100, 100, 100 }, { 50, 70, 51 } };
@@ -87,7 +87,7 @@ namespace Arrays
                 Console.WriteLine("{0} Learner's Average : {1}", students[i], average);
             }
 
-            Console.WriteLine();
+            Console.WriteLine("--Numbers--");
 
             int[] numbers = new int[5];
             for (int i = 0; i <= 4; i++)
